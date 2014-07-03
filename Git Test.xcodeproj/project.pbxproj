@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9D2BE1A1965EEDB00C36950 /* POTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D2BE191965EEDB00C36950 /* POTest.m */; };
 		C9F9E72F1965EA44005FFDAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9E72E1965EA44005FFDAB /* Foundation.framework */; };
 		C9F9E7311965EA44005FFDAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9E7301965EA44005FFDAB /* CoreGraphics.framework */; };
 		C9F9E7331965EA44005FFDAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9E7321965EA44005FFDAB /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9D2BE181965EEDB00C36950 /* POTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POTest.h; sourceTree = "<group>"; };
+		C9D2BE191965EEDB00C36950 /* POTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POTest.m; sourceTree = "<group>"; };
 		C9F9E72B1965EA44005FFDAB /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9E72E1965EA44005FFDAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9F9E7301965EA44005FFDAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		C9F9E7221965EA43005FFDAB = {
 			isa = PBXGroup;
 			children = (
+				C9D2BE181965EEDB00C36950 /* POTest.h */,
+				C9D2BE191965EEDB00C36950 /* POTest.m */,
 				C9F9E7341965EA44005FFDAB /* Git Test */,
 				C9F9E7531965EA44005FFDAB /* Git TestTests */,
 				C9F9E72D1965EA44005FFDAB /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				C9F9E73B1965EA44005FFDAB /* main.m in Sources */,
 				C9F9E7451965EA44005FFDAB /* POViewController.m in Sources */,
+				C9D2BE1A1965EEDB00C36950 /* POTest.m in Sources */,
 				C9F9E73F1965EA44005FFDAB /* POAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				C9F9E75F1965EA44005FFDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F9E7601965EA44005FFDAB /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				C9F9E7621965EA44005FFDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
